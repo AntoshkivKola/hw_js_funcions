@@ -13,4 +13,17 @@ const isAdult = function(age){
   return false;
 }
 
+//task2
 
+/** 
+ * checks the multiplicity of the first number by the second number
+ * @param {number} checkedNumber
+ * @param {number} multiplicityNumber
+ * @returns {boolean}
+*/
+const checkMultiplicity = function(checkedNumber, multiplicityNumber){
+  if(checkedNumber % multiplicityNumber === 0){
+    return true;
+  }
+  return false;
+}
