@@ -100,3 +100,13 @@ const getAreaTriangle = function (side, heightSide){
   return 0.5 * side * heightSide;
 }
 
+/** 
+ * area of a rectangle 
+ * @param {number} aSide
+ * @param {number} bSide
+ * 
+ * @returns {number}
+*/
+const getAreaRectangle = function (aSide, bSide){
+  return aSide * bSide;
+}
