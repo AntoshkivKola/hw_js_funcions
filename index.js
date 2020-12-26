@@ -43,3 +43,16 @@ const isTriangleReal = function (a, b, c) {
   }
   return false;
 }
+
+//task4
+
+/** 
+ * area rectangle
+ * @param {number} side
+ * @param {number} heightSide
+ * 
+ * @returns {number}
+*/
+const getAreaRectangle = function(side, heightSide){
+  return side*heightSide;
+}
