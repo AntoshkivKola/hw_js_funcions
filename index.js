@@ -47,13 +47,13 @@ const isTriangleReal = function (a, b, c) {
 //task4
 
 /** 
- * area of a rectangle
+ * area of a rhombus
  * @param {number} side
  * @param {number} heightSide
  * 
  * @returns {number}
 */
-const getAreaRectangle = function(side, heightSide){
+const getAreaRhombus = function(side, heightSide){
   return side*heightSide;
 }
 
@@ -99,3 +99,4 @@ const getAreaCyliinderFull = function (radius, height){
 const getAreaTriangle = function (side, heightSide){
   return 0.5 * side * heightSide;
 }
+
