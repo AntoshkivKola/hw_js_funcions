@@ -56,3 +56,36 @@ const isTriangleReal = function (a, b, c) {
 const getAreaRectangle = function(side, heightSide){
   return side*heightSide;
 }
+
+/** 
+ * area base of cylinder 
+ * @param {number} radius
+ * 
+ * @returns {number}
+*/
+const getAreaCyliinderBases = function (radius){
+  return Math.PI * radius**2;
+}
+
+/** 
+ * area sides of cylinder 
+ * @param {number} radius
+ * @param {number} height
+ * 
+ * @returns {number}
+*/
+const getAreaCyliinderSides = function (radius, height){
+  return 2* Math.PI * radius * height;
+}
+
+/** 
+ * full area cylinder
+ * @param {number} radius
+ * @param {number} height
+ * 
+ * @returns {number}
+*/
+const getAreaCyliinderFull = function (radius, height){
+  return 2*getAreaCyliinderBases(radius) + getAreaCyliinderSides(radius, height);
+}
+
