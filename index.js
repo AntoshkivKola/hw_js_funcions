@@ -47,7 +47,7 @@ const isTriangleReal = function (a, b, c) {
 //task4
 
 /** 
- * area rectangle
+ * area of a rectangle
  * @param {number} side
  * @param {number} heightSide
  * 
@@ -79,7 +79,7 @@ const getAreaCyliinderSides = function (radius, height){
 }
 
 /** 
- * full area cylinder
+ * full area of a cylinder
  * @param {number} radius
  * @param {number} height
  * 
@@ -89,3 +89,13 @@ const getAreaCyliinderFull = function (radius, height){
   return 2*getAreaCyliinderBases(radius) + getAreaCyliinderSides(radius, height);
 }
 
+/** 
+ * area of a triangle
+ * @param {number} side
+ * @param {number} heightSide
+ * 
+ * @returns {number}
+*/
+const getAreaTriangle = function (side, heightSide){
+  return 0.5 * side * heightSide;
+}
